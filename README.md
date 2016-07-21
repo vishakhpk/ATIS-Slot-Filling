@@ -10,6 +10,11 @@ Task Information:
 - Completed said task by achieving Spoken Language Understanding through the implementation of a Recurrent Neural Network
 - Made use of a sliding context window, word embeddings, an Elman Recurrent Network and standard perl script Conlevall.pl for evaluation
 
+Packages used:
+- Theano (specifically theano.tensor should be up to date for execution)
+- Numpy
+- six.moves.cPickle for the dataset
+
 Information for Execution:
 - Run RecurrentNeuralNetwork.py from Terminal/IDE
 - Conlevall.pl is used to check the accuracy, has been included in the repository
