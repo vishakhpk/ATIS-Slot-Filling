@@ -2,8 +2,11 @@
 
 Task Information:
 - Data is the Airline Travel Information System (ATIS) dataset collected by DARPA. Contains text information where words are to be understood labelled. Eg.
+   
    Input (words)	 show |	flights |	from |	Boston |	to |	New	  |  York  |	today
+   
    Output (labels)  O	  |    O	  |   O	 |  B-dept |	 O |	B-arr |	 I-arr |	B-date
+
 - Completed said task by achieving Spoken Language Understanding through the implementation of a Recurrent Neural Network
 - Made use of a sliding context window, word embeddings, an Elman Recurrent Network and standard perl script Conlevall.pl for evaluation
 
